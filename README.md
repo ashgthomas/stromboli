@@ -1,2 +1,2 @@
 # stromboli
-mock project redesign of Stromboli's Italian Eatery
+This is a project I developed of a mock redesign of Stromboli's Italian Eatery in Starkville, MS. 
