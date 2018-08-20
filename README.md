@@ -3,4 +3,6 @@ Stromboli's was one of my favorite restaurants to visit during my undergraduate 
 
 Languages: HTML5, CSS3, jQuery, JavaScript, Bootstrap
 
+*best viewed in Google Chrome; not responsive
+
 Stromboli's Current Website - http://www.strombolismsu.com/
