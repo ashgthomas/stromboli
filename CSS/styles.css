@@ -82,7 +82,7 @@ html, body{
     position: absolute;
     top: 10px;
     left: 10px;
-    background-image: url(/IMG/logo.png);
+    background-image: url(https://raw.githubusercontent.com/ashgthomas/stromboli/master/IMG/logo.png);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 300px;
@@ -132,14 +132,14 @@ html, body{
 }
 
 #carousel-item-1{
-	background-image: url(/IMG/img-1.jpg);
+	background-image: url(https://raw.githubusercontent.com/ashgthomas/stromboli/master/IMG/img-1.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	height: 900px;
 }
 
 #carousel-item-2{
-	background-image: url(/IMG/img-3.jpg);
+	background-image: url(https://raw.githubusercontent.com/ashgthomas/stromboli/master/IMG/img-3.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	height: 900px;	
@@ -149,7 +149,7 @@ html, body{
 7.
 =============*/
 #about{
-    background: url(/IMG/texture.jpg) repeat;
+    background: url(https://raw.githubusercontent.com/ashgthomas/stromboli/master/IMG/texture.jpg) repeat;
     padding: 50px 30px;
 }
 
