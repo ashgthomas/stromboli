@@ -1,0 +1,395 @@
+/*========
+Contents
+1. Imported Fonts
+2. Body/Most Used Classes
+3. Navigation
+4. Logo
+5. Specials
+6. Carousel
+7. Description
+8. Menu
+9. Footer
+==========*/
+
+/*===========
+1.
+=============*/
+@import url('https://fonts.googleapis.com/css?family=Chicle|Quicksand:400,700');
+
+/*===========
+2.
+=============*/
+
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+.clear{
+	clear: both;
+}
+
+#container{
+	width: 100%;
+}
+
+.row{
+	position: relative;
+	display: block;
+	width: 100%;
+	margin: 0 !important;
+}
+
+.section{
+	width: 65%;
+	margin: 0 auto;
+}
+
+/*===========
+3.
+=============*/
+#navigation{
+	width: 100%;
+	background: rgba(19, 17, 18, 0.7);
+	position: absolute;
+	z-index: 10;
+}
+
+#navigation .inner{
+	width: 50%;
+	margin: 0 auto;
+	padding: 10px 0;
+	text-align: center;
+}
+
+#navigation .inner a{
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+	margin: 0 15px;
+	text-transform: uppercase;
+}
+
+#navigation .inner a:hover{
+	color: #F4B66B;
+}
+
+/*===========
+4. 
+=============*/
+#logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-image: url(/IMG/logo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+}
+
+/*===========
+5.
+=============*/
+#specials{
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    z-index: 10;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+#dayOfWeek{
+    display: inline;
+}
+
+#specials-text{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.special{
+	display: none;
+}
+
+/*===========
+6. 
+=============*/
+#carousel{
+	width: 100%;
+	height: 670px;
+}
+
+.carousel-inner{
+	height: 670px;
+}
+
+#carousel-item-1{
+	background-image: url(/IMG/img-1.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 900px;
+}
+
+#carousel-item-2{
+	background-image: url(/IMG/img-3.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 900px;	
+}
+
+/*===========
+7.
+=============*/
+#about{
+    background: url(/IMG/texture.jpg) repeat;
+    padding: 50px 30px;
+}
+
+#about .section{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#about .section h2, #menu .section h2{
+    font-weight: 700;
+    font-size: 51px;
+    font-family: 'Chicle', cursive;
+    letter-spacing: 5px;
+}
+
+#about .section p{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 27px;
+}
+
+/*===========
+8.
+=============*/
+
+#menu{
+    background-color: #312B2F;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.menu-section{
+    margin: 0 0 75px;
+}
+
+.menu-section h1{
+    font-weight: 700;
+    font-size: 30px;
+    position: relative;
+    margin: 0 0 25px;
+    text-transform: uppercase;
+}
+
+.left h1{
+    color: #F4B66B;
+    padding: 0 0 0 38px;
+}
+
+.right h1{
+    color: #E95A51;
+    padding: 0 38px 0 0;
+}
+
+.menu-section h1::before{
+    content: '';
+    width: 30px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+}
+
+.left h1::before{
+    background: #F4B66B;
+    left: 0;
+}
+
+.right h1::before{
+    background: #E95A51;
+    right: 0;
+}
+
+.menu-items{
+    column-count: 2;
+    column-gap: 30px;
+    position: relative;
+}
+
+.left .menu-items{
+    padding: 0 0 0 38px;
+}
+
+.right .menu-items{
+    padding: 0 38px 0 0;
+}
+ 
+.menu-items ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.menu-items ul li{
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0 0 20px;
+    break-inside: avoid;
+}
+
+.menu-items ul li.last{
+    padding: 0;
+}
+
+.menu-items::before{
+    content: '';
+    width: 30px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.left .menu-items::before{
+    background: #E6E4E6;
+    left: 0;
+}
+
+.right .menu-items::before{
+    background: #BB3E3A;
+    right: 0;
+}
+
+.menu-items ul li p, .menu-section h1 p{
+    text-transform: none;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+}
+
+.menu-section h1 p{
+    display: inline;
+}
+
+#apps{
+    width: 75%;
+}
+
+#salads{
+    width: 75%;
+}
+
+#sandwiches{
+    width: 75%;
+}
+
+#desserts{
+    width: 50%;
+    float: right;
+}
+
+/*===========
+9.
+=============*/
+#bottom{
+    background-color: #F4B66B;
+    padding: 50px 30px;
+}
+
+#bottom .section{
+    width: 85%;
+}
+
+#footer{
+    font-family: 'Quicksand',sans-serif;
+    color: #312B2F;
+}
+
+#f-left, .footer-info-1{
+    float: left;
+}
+
+#f-right{
+    float: right;
+    text-align: center;
+}
+
+#f-left p.name{
+    margin: 0 0 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.phone{
+    font-weight: 700;
+    color: #BB3E3A;
+}
+
+.phone a{
+    color: #BB3E3A;
+}
+
+#f-right .social-link, #f-right .social-link:hover{
+    color: #312B2F;
+}
+
+#f-right i{
+    font-size: 40px;
+    margin: 0 20px 0 0;
+}
+
+.order-btn{
+    padding: 21px 34px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-style: normal;
+    color: #BB3E3A;
+    border-color: #BB3E3A;
+    border-width: 2px;
+    border-style: solid;
+    display:block;
+    margin: 10px 0;
+    -webkit-transition: 0.1s background-color linear, 0.1s color linear;
+    transition: 0.1s background-color linear, 0.1s color linear;
+}
+
+.order-btn:hover{
+    background-color: #BB3E3A;
+    color: #F4B66B;
+    text-decoration: none;
+}
+
+.footer-info-1, .footer-info-2{
+    font-size: 12px;
+}
+
+.footer-info-2 a, .footer-info-2 a:hover{
+    color: #312B2F;
+}
+
+.footer-info-2{
+    float: right;
+}

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<!-- Required CSS -->
+		<link rel="stylesheet" href="CSS/styles.css">
+
+		<!-- Bootstrap CSS -->
+    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    	<!-- Font Awesome -->
+    	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+		<!-- Required meta tags -->
+    	<meta charset="utf-8">
+
+
+		<title>
+			Stromboli's Italian Eatery - Mock Project
+		</title>
+
+	</head>
+	<body>
+
+		<div id="container">
+
+			<!-- Section: Navigation/Image Carousel/Daily Specials -->
+			<div class="row">
+
+				<div id="logo"></div>
+
+				<nav id="navigation">
+					<div class="inner">
+						<a href="#home">Home</a>
+						<a href="#menu">Menu</a>
+						<a href="#location">Location</a>
+					</div>
+				</nav>
+
+				<div id="specials">
+					<div id="specials-text"><div id="dayOfWeek"></div> Special</div>
+					<div id="Monday" class="special">$1.00 off of any oven baked sub sandwich</div>
+					<div id="Tuesday" class="special">$2.00 off of any 16" specialty pizza</div>
+					<div id="Wednesday" class="special">$1.00 off of any pasta (includes garlic bread)</div>
+					<div id="Thursday" class="special">Buy one appetizer, get the second appetizer half off</div>
+					<div id="Friday " class="special">Big Daddy's Lunch - one appetizer, one Entree &amp; one dessert for $12.50</div>
+					<div id="Saturday" class="special">Two (2) large 16" pizzas, up to 3 toppings each - $25.99 (Additional Toppings $2 extra)</div>
+					<div id="Sunday" class="special">Two (2) large 16" pizzas, up to 3 toppings each - $25.99 (Additional Toppings $2 extra)</div>
+				</div>
+
+				<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+					<div class="carousel-inner" role="listbox">
+    					<div class="carousel-item active" id="carousel-item-1"></div>
+    					<div class="carousel-item" id="carousel-item-2"></div>
+    				</div>
+				</div>
+			</div>
+
+			<!-- Section: Brief Description of Restaurant -->
+
+			<div class="row" id="about">
+				<div class="section">
+					<h2>The best in town!</h2>
+					<p>
+						We're Stromboli's Italian Eatery, and we're Starkville's favorite place for amazing friends and food. Located right outside of campus past the Hunter Henry Center, we strive to give our customers the best from the garden-to-table ingredients to the fresh dough we make in house daily. Stop by for a late lunch with friends or for a pleasant dinner with the family - between our delicious entrees and cozy atmosphere, we're sure to leave your tastebuds screaming for more. 
+					</p>
+				</div>
+			</div>
+
+			<!-- Section: Full Menu -->
+			<div class="row" id="menu">
+				<div class="section">
+					<h2>Menu</h2>
+					<div class="menu-section left" id="apps">
+						<h1>Appetizers</h1>
+						<div class="menu-items">
+							<ul>
+								<li>S'boli Bread Flowers</li>
+								<li>Cheese Sticks</li>
+								<li>Rotel Cheese Sticks</li>
+								<li class="last">Toasted Cheese Bread <p>(12" loaf)</p></li>
+								<li>Bite Size "Old Main" Calzone</li>
+								<li>Bite Size Strombolis</li>
+								<li>Toasted Beef Raviolis</li>
+								<li class="last">Chick Kisses <p>(chicken, jalapeños, and cheddar)</p></li>
+						</div>
+					</div>
+					<div class="menu-section right" id="stromboli">
+						<h1>Strombolis</h1>
+						<div class="menu-items">
+							<ul>
+								<li>Stromboli</li>
+								<li>Bacon Cheddar Stromboli</li>
+								<li>Build Your Own Stromboli (3 Fillings)</li>
+								<li class="last">Brooklyn Stromboli<p>Italian Sausage, Stromboli mix, ricotta cheese, sautéed onions, peppers, pepperoni, and mozzarella cheese</p></li>
+						</div>
+					</div>
+					<div class="menu-section left" id="salads">
+						<h1>Salads</h1>
+						<div class="menu-items">
+							<ul>
+								<li>Tossed Salad</li>
+								<li>Chef Salad</li>
+								<li class="last">With Seasoned Chicken</li>
+								<li class="last">Dressings Available<p>House Vinaigrette, Ranch, 1000 Island, Bleu Cheese, Caesar, Golden Italian, French, Honey Mustard, Lite Italian, Fat Free Ranch</p></li>
+						</div>
+					</div>
+					<div class="menu-section right" id="pastas">
+						<h1>Pastas</h1>
+						<div class="menu-items">
+							<ul>
+								<li>Meat Lasagna</li>
+								<li>Tossed Beef Raviolis</li>
+								<li class="last">Spaghetti with Meat or Meatballs</li>
+								<li>Chicken Alfredo w/ chicken, peppers, and mushrooms</li>
+								<li class="last">Baked Ziti <p>(Penne Pasta &amp; Ricotta)</p></li>
+						</div>
+					</div>
+					<div class="menu-section left" id="sandwiches">
+						<h1>Oven Baked Sub Sandwiches</h1>
+						<div class="menu-items">
+							<ul>
+								<li>Ham &amp; Cheese</li>
+								<li>BBQ Bacon Cheddar <p>(Pork or Chicken)</p></li>
+								<li>Meatball</li>
+								<li>Muffaletta</li>
+								<li>Stromboli Sub</li>
+								<li class="last">Chicken Parmesan</li>
+								<li>Chicken Ranchero</li>
+								<li>Honey Mustard Chicken</li>
+								<li>The Fav <p>(Chicken, Cheddar, Ranch, and Bacon)</p></li>
+								<li>Pepperoni &amp; Cheese Melt</li>
+								<li>Gyro <p>with Chips</p></li>
+						</div>
+					</div>
+					<div class="menu-section right" id="calzones">
+						<h1>Calzones</h1>
+						<div class="menu-items">
+							<ul>
+								<li>Old Main<p>Ground Italian Sausage, ricotta cheese, and mozzarella cheese</p></li>
+								<li>Boli Calzone<p>Stromboli Meat, pepperoni, and mozzarella cheese</p></li>
+								<li>Veggie<p>Five Veggies of your choice and mozzarella cheese</p></li>
+								<li>Greek<p>Spinach, Black Olives, and feta cheese</p></li>
+								<li>The Muffaletta<p>Muffaletta olive mix, salami, ham, pepperoni, and mozzarella cheese</p></li>
+								<li>Stromzone<p>Stromboli and Old Main calzone fillings</p></li>
+								<li>Brooklyn<p>Italian Sausage, sautéed onions &amp; peppers, and mozzarella cheese</p></li>
+								<li>Hot Chick<p>Chicken, ranch, buffalo sauce, and mozzarella cheese</p></li>
+								<li>Pepperoni and Mozzarella</li>
+								<li>Seasoned Chicken<p>Seasoned chicken and marinara and mozzarella</p></li>
+								<li>Honey Mustard Chicken<p>Seasoned Chicken with honey mustard and mozzarella cheese</p></li>
+								<li>Chicken Ranchero<p>Seasoned Chicken, pepperoni, ranch, and mozzarella cheese</p></li>
+								<li>The Fav Calzone<p>Chicken, cheddar, bacon, and ranch</p></li>
+								<li>Mafiosi Calzone<p>Meat Lasagna, Italian Sausage, and mozzarella cheese</p></li>
+								<li>Extreme Cheese<p>Mozzarella and Cheddar Cheese</p></li>
+								<li>Rotel Calzone<p>Pork sausage, rotel, jalapeños, and cheddar cheese</p></li>
+								<li class="last">Build Your Own<p>3 Fillings with cheese</p></li>
+						</div>
+					</div>
+					<div class="menu-section left" id="pizzas">
+						<h1>Pizzas <p>- All pizzas begin with mozzarella cheese. Sizes available 10"/12"/16"</p></h1>
+						<div class="menu-items">
+							<ul>
+								<li>Supreme<p>Pepperoni, Italian sausage, Ham, Pork Sausage, Beef, Mushrooms, Black Olives, Green Peppers & Red Onions</p></li>
+								<li>Meat Feast<p>Pepperoni, ham, pork sausage, beaf, bacon, italian sausage</p></li>
+								<li>Chicken Ranchero<p>Seasoned chicken, peperoni, ranch, buffalo sauce and mozzarella</p></li>
+								<li>Hot Chick Pizza<p>Seasoned chicken, ranch, buffalo sauce and mozzarella</p></li>
+								<li>Fav Pizza<p>Seasoned chicken, Cheddar, Bacon, Ranch</p></li>
+								<li>Alfonzo<p>Beef, bacon, onions, pepper, cheddar cheese, seasoning</p></li>
+								<li class="last">Bacon Cheese Burger<p>Real bacon, beef, cheddar cheese, seasoning</p></li>
+								<li>BBQ (Pork or Chicken)<p>Barbecue sauce, mozzarella, cheddar, seasoning</p></li>
+								<li>Cheese</li>
+								<li>Greek<p>Spinach, black olives, feta cheese</p></li>
+								<li>Hawaiian<p>Ham, chicken, pineapple</p></li>
+								<li>Muffaletta<p>Muffaletta, salami, ham, pepperoni, mozzarella</p></li>
+								<li>Rotel<p>Pork sausage, rotel, jalapenos, cheddar cheese</p></li>
+								<li>South of The Border<p>Beef with taco seasoning, jalapenos, banana &amp; green peppers, cheddar</p></li>
+								<li class="last">Veggie<p>5 vegetable of your choice</p></li>
+						</div>
+					</div>
+					<div class="menu-section right" id="desserts">
+						<h1>Desserts</h1>
+						<div class="menu-items">
+							<ul>
+								<li>Cookie Dough Bits <p>(3 to Order)</p></li>
+								<li class="last">Cannoli Bites <p>(3 to Order)</p></li>
+								<li>Cannoli</li>
+								<li>Bakalava</li>
+								<li class="last">Cheesecake</li>
+						</div>
+					</div>
+
+					<div class="clear"></div>
+				</div>
+			</div>
+
+			<!-- Section: Footer -->
+			<div class="row" id="bottom">
+				<div class="section" id="location">
+					<div id="footer">
+
+						<div id="f-left">
+							<p class="name">Strombolis Italian Eatery</p>
+							408 University Drive<br>
+							Starkville, MS 39759
+							<p class="phone">P: <a href="tel:16626154080">(662) 615-4080</a></p>
+						</div>
+
+						<div id="f-right">
+							<a href="https://www.facebook.com/strombolis/" target="_blank" class="social-link"><i class="fab fa-facebook-square"></i></a>
+							<a href="mailto:turman05@aol.com" class="social-link"><i class="fas fa-envelope"></i></a>
+							<a href="https://eatstreet.com/strombolis/menu?order-source=ORDER_NOW_IFRAME" class="order-btn" target="_blank" data-initialized="true">Order Online</a>
+						</div>
+
+						<div class="clear"></div>
+
+						<div class="footer-info-1">
+							Copyright &copy; <div id="current-year"></div> Stromboli's Italian Eatery
+							<span class="sep"> | </span>
+							All Rights Reserved.
+						</div>
+
+						<div class="footer-info-2">
+							Website Designed by <a href="http://www.ashleygthomas.com" target="_blank">Ashley T.</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Important Scripts -->
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+		<script src="JS/scripts.js"></script>
+	</body>
+</html>
