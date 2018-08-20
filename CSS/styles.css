@@ -393,3 +393,6 @@ html, body{
 .footer-info-2{
     float: right;
 }
+.current-year{
+	display: inline;
+}
